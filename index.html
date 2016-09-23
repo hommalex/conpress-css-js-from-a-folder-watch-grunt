@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TEST GRUNT</title>
+	<link rel="stylesheet" href="bd.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis fugit id aperiam sunt consequatur saepe eveniet itaque culpa dolorem ipsum vel harum distinctio reiciendis assumenda quod nemo sint repellendus ratione!</div>
+				
+			</div>
+			<div class="col-md-6">
+				<div>Facilis veritatis eum enim nisi qui iste harum beatae quam aliquid pariatur culpa consequatur numquam reprehenderit. Quasi iure maiores perferendis aliquam in non cupiditate sapiente eligendi repellat quia nobis neque.</div>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<button class="btn btn-info"> OK </button>
+		</div>
+	</div>
+<script src="bd.js"></script>
+
+<script>
+	$(document).ready( function() {
+		$(".row").after(' <div class="row"> <div class="col-md-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta optio nulla tempora blanditiis quaerat praesentium nam at quod vel laboriosam eaque atque laborum sequi? Quidem earum iure natus neque repudiandae.</div> </div> ');
+	});
+</script>
+</body>
+</html>

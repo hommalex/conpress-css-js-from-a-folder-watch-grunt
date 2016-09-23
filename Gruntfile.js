@@ -14,18 +14,14 @@ module.exports = function(grunt) {
 		uglify: {
 			my_target: {
 			  files: {
-				'main.min.js': ['assets/js/*.js', 'assets/js/**.js']
+				'main.min.js': ['assets/js/jquery.js', 'assets/js/*.js', 'assets/js/**.js']
 			  }
 			}
 		  },
 		watch: {
 		  scripts: {
-			files: ['assets/js/*.js', 'assets/js/**.js'],
-			tasks: ['uglify'],
-		  },
-		  scripts: {
-			files: ['assets/css/*.css', 'assets/css/**.css'],
-			tasks: ['cssmin'],
+			files: ['assets/js/*.js', 'assets/js/**.js', 'assets/css/*.css', 'assets/css/**.css'],
+			tasks: ['uglify', 'cssmin'],
 		  }
 		},
 	} );

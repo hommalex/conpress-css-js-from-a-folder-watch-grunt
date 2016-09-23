@@ -10,6 +10,7 @@ INSTALLATION
   - npm init
   - npm install
   - npm install grunt
+
   then start the watch with 
   - npm start
 

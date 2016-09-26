@@ -1,8 +1,9 @@
 # conpress-css-js-from-a-folder-watch-grunt
+```
 Minified your js and css files with grunt and watch changes
 get all assets conpress/minified from the assets folder to a main.min.js / main.min.css
-
-
+Edit the index.html css and js extension with a new file version.
+```
 ####INSTALLATION####
 ```
   > git clone https://github.com/hommalex/conpress-css-js-from-a-folder-watch-grunt.git
@@ -21,5 +22,6 @@ get all assets conpress/minified from the assets folder to a main.min.js / main.
   - grunt cssmin
   - grunt uglify
   - grunt watch
+  - grunt text-replace
 
 

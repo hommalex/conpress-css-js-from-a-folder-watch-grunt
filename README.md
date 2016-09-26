@@ -1,7 +1,7 @@
 # conpress-css-js-from-a-folder-watch-grunt
 Minified your js and css files with grunt and watch changes
-
 get all assets conpress/minified from the assets folder to a main.min.js / main.min.css
+
 
 ####INSTALLATION####
 ```

@@ -50,9 +50,13 @@ module.exports = function(grunt) {
 		  }
 		},
 		watch: {
-		  scripts: {
-			files: ['assets/js/*.js', 'assets/js/**.js', 'assets/css/*.css', 'assets/css/**.css'],
-			tasks: ['uglify', 'cssmin', 'replace']
+		  csss: {
+			files: ['assets/css/*.css', 'assets/css/**.css'],
+			tasks: ['cssmin', 'replace']
+		  }, 
+		  script: {
+			files: ['assets/js/*.js', 'assets/js/**.js'],
+			tasks: ['uglify', 'replace']
 		  }
 		}
 	} );
